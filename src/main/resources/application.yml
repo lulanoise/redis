@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: test
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  h2:
+    console:
+      enabled: true
+
+redis:
+  database: Redis-db
+  password: 8rG3d2Vzuj25XYpEoNugiLUUukFld5hn
+  host: redis-16695.c99.us-east-1-4.ec2.cloud.redislabs.com
+  port: 16695
+
