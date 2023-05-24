@@ -11,8 +11,7 @@ spring:
       enabled: true
 
 redis:
-  database: Redis-db
-  password: 8rG3d2Vzuj25XYpEoNugiLUUukFld5hn
-  host: redis-16695.c99.us-east-1-4.ec2.cloud.redislabs.com
-  port: 16695
-
+  database: ---
+  password: ---
+  host: ---
+  port: ---
